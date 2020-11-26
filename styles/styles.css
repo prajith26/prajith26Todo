@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------TITLE Start-----------------------------------------------------*/
+#title{                             /*TO-DO LIST title styling*/
+    color: #007bff;
+    /* margin-right: 17em; */
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
+#todo{
+    margin-top: 25px;       /*top margin for title in both pages*/
+}
+
+#TD{
+    text-decoration: none;  /*text decoration for title in main page*/
+}
+/*-------------------------------------TITLE End------------------------------------------------------*/
+
+body{
+    background-image: url("../images/bkgrd.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;    
+    height: 100%;
+    width: 100vw;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+.line{
+    border: 0.5px solid rgba(9, 144, 255, 0.301);
+}
+
+/*-------------------------------------Login Start----------------------------------------------------*/
+
+.Login{                              /*Login Form Styling*/
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: -0.5em;
+}
+.container{                         /*Login Form Margins*/
+    margin: 0 40%;
+
+    /* border: 1px solid black; */
+    /* padding: 20px;
+    margin-right: 80em; */
+}
+/*-------------------------------------Login End------------------------------------------------------*/
+
+
+/*-------------------------------------logout Start---------------------------------------------------*/
+
+#logout{
+   text-decoration: none;      /*Logout text decoration in main page */
+}
+#log{
+    margin-top: 38px;       /*Log out styling in main page*/
+    font-size: 18px;
+}
+/*-------------------------------------logout End------------------------------------------------------*/
+
+
+.disable{
+    color: rgb(97, 96, 96);    /*Disable effect for task label*/
+}
+#T-line{                        /*My todo styling in Main page*/
+    font-family: 'Times New Roman', Times, serif;  
+    font-weight: bold;
+   margin-left: 3.3em;
+}
